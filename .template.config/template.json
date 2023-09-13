@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "classifications": [ "Console", "Example", "Template" ],
+    "identity": "ExampleTemplate",
+    "name": "Example template project with dynamic GUID and Renaming.",
+    "shortName": "exampletemplate",
+    "sourceName":"ExampleTemplate",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "symbols": {
+        "guidGeneration": {
+            "type": "generated",
+            "generator": "guid",
+            "replaces": "$guid",
+            "parameters": {
+                "format": "NDnd",
+                "defaultFormat": "D"
+            }
+        }
+    }
+}
