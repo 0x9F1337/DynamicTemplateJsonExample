@@ -44,7 +44,7 @@ Starting from ExampleTemplate (or your own template project) as a working direct
 ```cmd
 dotnet new install .\
 ```
-This is install this (or your own) template.
+This will install our (or your own) template.
 
 ### Create a sample project using your newly installed template
 
@@ -53,7 +53,7 @@ In your project repository directory, create a new project using your installed 
 ```cmd
 dotnet new exampletemplate -o GreatestProject -n GreatestProject
 ```
-It should tell you that the creating was successful.
+It should tell you that the creation was successful.
 
 ### Run it!
 
@@ -64,3 +64,4 @@ PS C:\Users\Developer\source\repos> cd .\GreatestProject\
 PS C:\Users\Developer\source\repos\GreatestProject> dotnet run
 Running from GreatestProject with GUID 71E2990C-4691-4CBE-8C0E-92F3A8D99520
 ```
+Voilá! Modernized custom project templates with some extra.
